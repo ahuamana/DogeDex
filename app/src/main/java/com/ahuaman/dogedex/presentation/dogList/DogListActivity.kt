@@ -11,7 +11,7 @@ class DogListActivity : AppCompatActivity() {
 
     private val dogListViewModel : DogListViewModel by viewModels()
 
-    val binding by lazy { ActivityDogListBinding.inflate(layoutInflater) }
+    private val binding by lazy { ActivityDogListBinding.inflate(layoutInflater) }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,5 +27,8 @@ class DogListActivity : AppCompatActivity() {
             adapter.submitList(it)
         }
     }
+
+
+
 
 }
