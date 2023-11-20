@@ -10,6 +10,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/dogListRecyclerView"
         android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
         android:layout_height="match_parent"
         tools:context=".presentation.dogList.DogListActivity"/>
 </layout>
