@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Dogedex"
+rootProject.name = "DogeDex"
 include(":app")
